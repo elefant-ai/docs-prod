@@ -1,0 +1,69 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Elefant AI",
+  "logo": {
+    "dark": "https://github.com/elefant-ai.png",
+    "light": "https://github.com/elefant-ai.png"
+  },
+  "favicon": "favicon.svg",
+  "colors": {
+    "primary": "#0284c7",
+    "light": "#0ea5e9",
+    "dark": "#38bdf8",
+    "anchors": {
+      "from": "#93c5fd",
+      "to": "#2563eb"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://elefant.gg/discord"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Download",
+    "url": "/quickstart"
+  },
+  "tabs": [
+    {
+      "name": "About",
+      "url": "about"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://elefant.gg/discord"
+    },
+    {
+      "name": "Videos",
+      "icon": "youtube",
+      "url": "https://www.youtube.com/@ElefantAI"
+    },
+    {
+      "name": "Photos",
+      "icon": "instagram",
+      "url": "https://www.instagram.com/elefantaiinc/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["intro", "quickstart", "launcher", "capabilities"]
+    },
+    {
+      "group": "",
+      "pages": ["feedback", "faq"]
+    },
+    {
+      "group": "About",
+      "pages": ["about/about"]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/elefantai",
+    "github": "https://github.com/elefant-ai"
+  }
+}
